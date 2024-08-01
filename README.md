@@ -11,8 +11,9 @@ The project explores the use of genetic algorithms to optimize the gains of a PI
 ## System Specifications
 
 ### Software:
- MATLAB: Used for executing the genetic algorithm.
- Simulink: Used for modeling, simulating, and analyzing the dynamic system of the self-balancing robot.
+- **MATLAB**: Used for executing the genetic algorithm.
+ 
+- **Simulink**: Used for modeling, simulating, and analyzing the dynamic system of the self-balancing robot.
 
 ## Algorithms
 ### Genetic Algorithm
@@ -26,13 +27,11 @@ Fuzzy Logic
 ### Self-Balancing Robot
 
 The self-balancing robot consists of:
-
- Cart: The wheel assembly with two wheels and a shaft.
- Chaassis: The upper body that oscillates and needs to be kept upright.
- Joints:
-        Prismatic Joint for actuation.
-        Revolute Joint for measuring angular deviation.
-
+- **Cart**: The wheel assembly with two wheels and a shaft.
+- **Chassis**: The upper body that oscillates and needs to be kept upright.
+- **Joints**:
+  - Prismatic Joint for actuation.
+  - Revolute Joint for measuring angular deviation.
 ### PID Controller
 
 The PID controller receives feedback from the revolute joint and sends corrective signals to the prismatic joint to balance the robot.
