@@ -21,30 +21,31 @@ A genetic algorithm simulates the process of natural selection to optimize PID g
 Fuzzy Logic
 
 ### Fuzzy logic provides an approach to handle imprecision and uncertainty in control systems. It uses degrees of truth rather than binary true/false values to maintain system stability.
-System Design
+## System and Algorithm Design
 
-## Self-Balancing Robot
+### Self-Balancing Robot
 
 The self-balancing robot consists of:
 
-    Cart: The wheel assembly with two wheels and a shaft.
-    Chassis: The upper body that oscillates and needs to be kept upright.
-    Joints:
+ Cart: The wheel assembly with two wheels and a shaft.
+ Chaassis: The upper body that oscillates and needs to be kept upright.
+ Joints:
         Prismatic Joint for actuation.
         Revolute Joint for measuring angular deviation.
 
-## PID Controller
+### PID Controller
 
 The PID controller receives feedback from the revolute joint and sends corrective signals to the prismatic joint to balance the robot.
 Results and Observations
 
 The genetic algorithm successfully optimized the PID gains, improving the stability and response time of the self-balancing robot. Results were compared between manually tuned and machine-learned PID controllers, showing significant improvements with the latter.
-Machine Learning Control
+
+### Fuzzy Logic 
 
 A Fuzzy Logic controller was also implemented and tested. Results demonstrated the effectiveness of fuzzy logic in handling complex control scenarios.
-Future Scope
+## Future Scope
 
-## Potential applications of this research include:
+Potential applications of this research include:
 
  Robotics, particularly in warehouse automation.
  Industrial automation for more stable control processes.
@@ -52,4 +53,4 @@ Future Scope
 
 ## Conclusion
 
-The project demonstrates the viability of using machine learning, particularly genetic algorithms and fuzzy logic, to control dynamic.
+The project demonstrates the viability of using machine learning, particularly genetic algorithms and fuzzy logic, to control dynamic systms.
