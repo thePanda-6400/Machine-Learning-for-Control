@@ -46,10 +46,10 @@ Future Scope
 
 ## Potential applications of this research include:
 
-    Robotics, particularly in warehouse automation.
-    Industrial automation for more stable control processes.
-    Wind tunnel controllers for maintaining proper airflow in chaotic environments.
+ Robotics, particularly in warehouse automation.
+ Industrial automation for more stable control processes.
+ Wind tunnel controllers for maintaining proper airflow in chaotic environments.
 
 ## Conclusion
 
-The project demonstrates the viability of using machine learning, particularly genetic algorithms and fuzzy logic, to improve the performance of PID controllers in dynamic systems.
+The project demonstrates the viability of using machine learning, particularly genetic algorithms and fuzzy logic, to control dynamic.
