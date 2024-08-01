@@ -11,8 +11,8 @@ The project explores the use of genetic algorithms to optimize the gains of a PI
 ## System Specifications
 
 ### Software:
-        MATLAB: Used for executing the genetic algorithm.
-        Simulink: Used for modeling, simulating, and analyzing the dynamic system of the self-balancing robot.
+ MATLAB: Used for executing the genetic algorithm.
+ Simulink: Used for modeling, simulating, and analyzing the dynamic system of the self-balancing robot.
 
 ## Algorithms
 ### Genetic Algorithm
